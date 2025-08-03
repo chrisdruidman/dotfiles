@@ -126,6 +126,7 @@
     lutris
     heroic
     bottles
+    wine
     ## fps etc overlay
     mangohud
   ];
