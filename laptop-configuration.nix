@@ -122,6 +122,7 @@
     lshw
     code-cursor
     gh
+    flatpak
     # games stuff
     lutris
     heroic
