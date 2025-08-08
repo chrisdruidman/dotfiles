@@ -56,9 +56,10 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
-  # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  #Enable KDE Plasma Desktop Environment
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
+  services.displayManager.sddm.wayland.enable = true;
 
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -130,6 +131,16 @@
     wine
     ## fps etc overlay
     mangohud
+    # kde stuff
+    kdePackages.kcalc # Calculator
+    kdePackages.kolourpaint # Easy-to-use paint program
+    kdePackages.ksystemlog # KDE SystemLog Application
+    kdePackages.sddm-kcm # Configuration module for SDDM
+    kdePackages.partitionmanager # Optional Manage the disk devices, partitions and file systems on your computer
+    hardinfo2 # System information and benchmarks for Linux systems
+    haruna # Open source video player built with Qt/QML and libmpv
+    wayland-utils # Wayland utilities
+    wl-clipboard # Command-line copy/paste utilities for Wayland
   ];
 
   # Set default shell
