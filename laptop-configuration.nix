@@ -103,6 +103,7 @@
     vscode
     steam
     discord
+    beyond-all-reason
     #  thunderbird
     ];
   };
