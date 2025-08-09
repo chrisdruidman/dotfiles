@@ -103,7 +103,6 @@
     vscode
     steam
     discord
-    beyond-all-reason
     #  thunderbird
     ];
   };
@@ -132,6 +131,8 @@
     wine
     ## fps etc overlay
     mangohud
+    ## games
+    beyond-all-reason
     # kde stuff
     kdePackages.kcalc # Calculator
     kdePackages.kolourpaint # Easy-to-use paint program
